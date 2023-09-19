@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <h1>TODO List</h1>
+      <div>
+        <div id="panel">
+          <div class="remove-ends">
+            <button id="remove-first">Remove first</button>
+            <button id="remove-last">Remove last</button>
+          </div>
+          <div id="parity">
+            <button id="odd">Odd</button>
+            <button id="even">Even</button>
+          </div>
+        </div>
+        <div id="item-box">
+          <ul id="list">
+            <li id="input-box">
+              <p>Create task:</p>
+              <input id="create-task" type="text" />
+              <button id="submit">Submit</button>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
